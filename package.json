@@ -1,0 +1,27 @@
+{
+  "name": "epex-scraper-simple",
+  "version": "1.0.0",
+  "description": "Simple EPEX SPOT market data scraper using Playwright and TypeScript with Page Object Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "scrape": "playwright test tests/simple-scraper.spec.ts"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "web-scraping",
+    "epex-spot",
+    "page-object-model"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.6",
+    "typescript": "^5.9.3"
+  }
+}
