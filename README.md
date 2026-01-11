@@ -10,7 +10,6 @@ A simple EPEX SPOT market data scraper using Playwright and TypeScript with Page
 - Page Object Model architecture for maintainability
 - Exports data to CSV format
 - TypeScript for type safety
-- Filters out blank/missing values
 
 ## Project Structure
 
